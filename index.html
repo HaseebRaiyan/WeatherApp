@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search-container">
+      <input type="text" id="search-box" placeholder="Enter a location">
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="current-weather-container">
+      <h2>Current Weather</h2>
+      <div class="weather-icon-container">
+        <img src="" alt="Weather Icon" id="weather-icon">
+      </div>
+      <div class="weather-details-container">
+        <p><span id="temp"></span>°C</p>
+        <p><span id="description"></span></p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
+      </div>
+    </div>
+    <div class="forecast-container">
+      <h2>Five Day Forecast</h2>
+      <div class="forecast-cards-container"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
